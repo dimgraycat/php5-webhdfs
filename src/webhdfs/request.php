@@ -6,7 +6,9 @@
  * @author  Shigemasa Akiyama
  */
 
-class WebHDFS_Request {
+namespace WebHDFS;
+
+class Request {
 
     /**
      * cURLのリクエスト発行

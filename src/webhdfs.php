@@ -6,8 +6,9 @@
  * @author  Shigemasa Akiyama
  */
 
-use \Config;
-use \WebHDFS_Request;
+include_once __DIR__.'/webhdfs/request.php';
+
+use WebHDFS\Request as WebHDFS_Request;
 
 class WebHDFS {
 
